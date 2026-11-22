@@ -2,6 +2,7 @@
 // array of {id, input}), answers each one alone with run() from solve.js, and writes /output/answers.json: a JSON
 // array of the answers, one per case and in the cases' order. An entry keeps this driver and replaces solve.js with a
 // faster module whose run(input) returns the same answer for every input. Outside a container MAKEFUN_INPUT_DIR and MAKEFUN_OUTPUT_DIR stand in for /input and /output.
+// Driver kept verbatim from the kit baseline: all of this entry's speed lives in solve.js.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
